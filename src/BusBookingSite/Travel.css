@@ -1,0 +1,48 @@
+.form{
+    border: 2px solid grey;
+    padding: 10px;
+    text-align: center;
+    height: 360px;
+}
+#seat-icon{
+    font-size:40px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2px;
+    margin:5px ;
+}
+.first{
+display:flex;
+justify-content: space-between;
+}
+.two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.two .seats{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.structure{
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+
+}
+.drivers{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px ;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(128, 128, 128, 0.435);
+}
+.seats p{
+    font-weight: 700;
+}
+
